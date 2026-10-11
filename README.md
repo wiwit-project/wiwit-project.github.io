@@ -1,4 +1,4 @@
-![metatags](public/wiwit-metatags.jpg)
+<img width="2160" height="1345" alt="website preview" src="https://github.com/user-attachments/assets/12528a16-5b9c-46bd-a52b-f439e2f1ac27" />
 
 # Wiwit Website
 
