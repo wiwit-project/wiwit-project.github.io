@@ -1,7 +1,7 @@
 ---
 import { Font } from "astro:assets";
 
-import { SITE } from "../consts";
+import { LINKS, SITE } from "../consts";
 import "../styles/global.css";
 
 interface Props {
@@ -21,6 +21,8 @@ const { title = SITE.title, description = SITE.description } = Astro.props;
     <meta name="description" content={description} />
     <meta property="og:image" content="/wiwit-metatags.jpg" />
     <meta name="color-scheme" content="light dark" />
+
+    <link rel="preconnect" href={new URL(LINKS.docs).origin} />
 
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png" />
